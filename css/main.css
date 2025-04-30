@@ -258,7 +258,7 @@ h6 {
   .navmenu a:focus {
     color: var(--nav-color);
     padding: 18px 15px;
-    font-size: 16px;
+    font-size: 22px;
     font-family: var(--nav-font);
     font-weight: 400;
     display: flex;
@@ -952,6 +952,7 @@ section,
   border-radius: 10px;
   transition: all 0.3s ease-out 0s;
   margin-bottom: 20px;
+  
 }
 
 .about .icon-box i {
@@ -966,6 +967,7 @@ section,
   line-height: 0;
   transition: all 0.4s ease-out 0s;
   background:none;
+  color: #ffd800;
 }
 
 .about .icon-box h3 {
@@ -980,8 +982,8 @@ section,
 }
 
 .about .icon-box:hover i {
-  background-color:#adcce7;
-  color: var(--contrast-color);
+ /* background-color:#adcce7;*/
+  color:var(--nav-hover-color);
 }
 
 .about .icon-boxes .col-md-6:nth-child(2) .icon-box,
@@ -2873,3 +2875,23 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+/*  whatsapp*/
+.whats-app {
+  position: fixed;
+  width: 55px;
+  height: 51px;
+  bottom: 109px;
+  left: 20px;
+  background-color: #237cb8;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;}
+  .whats{
+    color: #fff;
+  }
+
+
+  /*  whatsapp*/
