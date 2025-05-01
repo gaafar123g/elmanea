@@ -217,6 +217,7 @@ h6 {
 ------------------------------*/
 .index-page .header {
   --background-color: rgba(255, 255, 255, 0);
+ /* background-color: hsla(120, 100%, 50%, 0.3);*/
   --heading-color: #ffffff;
   --nav-color: rgba(255, 255, 255, 0.5);
   --nav-hover-color: #ffffff;
@@ -2895,3 +2896,15 @@ section,
 
 
   /*  whatsapp*/
+  /* more  */
+  .more{
+    background:#e84545;
+    padding: 8px 30px 10px 30px;
+    border-radius: 4px;
+    color: #fff;
+  }
+  .more:hover{
+    background-color: 
+    color-mix(in srgb, var(--accent-color), transparent 20%);  
+    color: #fff;
+  }
